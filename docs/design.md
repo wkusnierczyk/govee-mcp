@@ -1,4 +1,4 @@
-# govee-mcp — Design Document
+# `govee-mcp` — Design Document
 
 `govee-mcp` is an MCP (Model Context Protocol) server that exposes Govee smart lighting control
 to AI assistants, primarily Claude. It is a thin binary crate wrapping the `govee` library —
