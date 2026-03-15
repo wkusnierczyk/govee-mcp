@@ -1,2 +1,3 @@
 # govee-mcp
-Govee MCP Server
+
+[**WIP**] Govee MCP Server
