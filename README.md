@@ -1,3 +1,3 @@
-# govee-mcp
+# `govee-mcp`
 
-[**WIP**] Govee MCP Server
+**WIP**: This project is currently in development and not ready for production use.
