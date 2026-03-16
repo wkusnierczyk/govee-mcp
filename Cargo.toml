@@ -1,0 +1,11 @@
+[package]
+name = "govee-mcp"
+version = "0.0.0"
+edition = "2021"
+description = "MCP server exposing Govee smart lighting control to AI assistants"
+license = "Apache-2.0"
+repository = "https://github.com/waku/govee-mcp"
+keywords = ["mcp", "govee", "smart-home", "lighting"]
+categories = ["command-line-utilities"]
+
+[dependencies]

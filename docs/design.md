@@ -233,13 +233,12 @@ requests.
 <sub>[↑ TOC](#table-of-contents) · [← 7.4 Scene definition by Claude](#74-scene-definition-by-claude) · [9. Dependencies →](#9-dependencies)</sub>
 
 
-The official Rust MCP SDK (`rmcp`, `modelcontextprotocol/rust-sdk`) is at v0.16 as of March 2026.
-The macro API (`#[tool]`, `#[tool_router]`, `#[tool_handler]`) is ergonomic and eliminates
-boilerplate, but the crate is young and minor-version breaks are plausible. Pin to a specific
-version in `Cargo.toml` and upgrade deliberately.
+The official Rust MCP SDK (`rmcp`, `modelcontextprotocol/rust-sdk`) is at v1.2.0 as of March 2026.
+It requires Rust edition 2024. This project currently targets edition 2021, so adopting `rmcp`
+would require an edition bump. If that becomes a problem, the MCP protocol is JSON-RPC over stdio
+and small enough to implement directly.
 
-Some earlier versions required Rust Edition 2024 / nightly. This project targets edition 2021 on
-stable Rust. Verify the pinned version compiles on stable before committing.
+If we use `rmcp`, pin to a specific version in `Cargo.toml` and upgrade deliberately.
 
 ---
 
